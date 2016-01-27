@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 
-def findName( str ):
-   "This prints a passed string into this function"
-   print( str )
-   pok = "hahaha"
-   return pok
+
+def findName( team ):
+	if team == "milan" or team == "Milan" or team == "ACM" or team == "acm":
+   		team = "Milan"
+	else:
+		 team = "this team is not in database"
+	return team
+		

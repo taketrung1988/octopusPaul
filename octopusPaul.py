@@ -2,6 +2,19 @@
 
 import italy.milan
 import italy.inter
+import italy.atalanta
+import italy.chievo
+import italy.fiorentina
+import italy.genoa
+import italy.inter
+import italy.juventus
+import italy.lazio
+import italy.milan
+import italy.napoli
+import italy.roma
+import italy.sampdoria
+import italy.torino
+import italy.udinese
 import names
 
 class Team:
@@ -16,17 +29,10 @@ class Team:
     awayDraws3Years=0
     awayLoses3Years=0
 
-dumb = "zzzzz"
-guess = names.findName( dumb )
-print( guess )
-team1 = Team
-team1.name = italy.inter.name
-team1.wins3Years = italy.inter.wins3Years
-print(team1.name)
-print(team1.name + "' last 3 years' win percent is: ")
-print(team1.wins3Years)
-  
-
+myTeam = Team  
+myTeam.name = input("Enter first team name: ")
+myTeam.name = names.findName(myTeam.name);
+print(myTeam.name)
 first_team_name = input("Enter first team: ")
 second_team_name =input("Enter second team: ")
 
