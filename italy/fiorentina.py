@@ -57,8 +57,8 @@ home1chievo=0
 homexchievo=0
 home2chievo=0
 
-home1atalanta=0
-homexatalanta=0
+home1atalanta=4
+homexatalanta=1
 home2atalanta=0
 
 home1torino=0

@@ -15,28 +15,28 @@ awayLoses3Years=56.1
 #last 5 meeting at Benthegodi - Chievo    
 
 home1milan=0
-homexmilan=0
-home2milan=0
+homexmilan=2
+home2milan=3
 
-home1inter=0
+home1inter=1
 homexinter=0
-home2inter=0
+home2inter=4
 
-home1juventus=0
+home1juventus=2
 homexjuventus=0
-home2juventus=0
+home2juventus=3
 
-home1lazio=0
-homexlazio=0
-home2lazio=0
+home1lazio=1
+homexlazio=1
+home2lazio=3
 
-home1roma=0
-homexroma=0
-home2roma=0
+home1roma=1
+homexroma=3
+home2roma=1
 
-home1napoli=0
+home1napoli=2
 homexnapoli=0
-home2napoli=0
+home2napoli=3
 
 home1fiorentina=0
 homexfiorentina=0
@@ -58,9 +58,9 @@ home1chievo=0
 homexchievo=0
 home2chievo=0
 
-home1atalanta=0
-homexatalanta=0
-home2atalanta=0
+home1atalanta=2
+homexatalanta=2
+home2atalanta=1
 
 home1torino=0
 homextorino=0

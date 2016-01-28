@@ -53,7 +53,7 @@ home1sampdoria=0
 homexsampdoria=0
 home2sampdoria=0
 
-home1chievo=0
+home1chievo=5
 homexchievo=0
 home2chievo=0
 

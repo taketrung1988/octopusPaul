@@ -52,8 +52,8 @@ home1sampdoria=0
 homexsampdoria=0
 home2sampdoria=0
 
-home1chievo=0
-homexchievo=0
+home1chievo=3
+homexchievo=2
 home2chievo=0
 
 home1atalanta=5
