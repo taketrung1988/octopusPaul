@@ -38,21 +38,21 @@ home1napoli=2
 homexnapoli=0
 home2napoli=3
 
-home1fiorentina=0
-homexfiorentina=0
-home2fiorentina=0
+home1fiorentina=1
+homexfiorentina=1
+home2fiorentina=3
 
-home1udinese=0
-homexudinese=0
-home2udinese=0
+home1udinese=1
+homexudinese=3
+home2udinese=1
 
-home1genoa=0
-homexgenoa=0
-home2genoa=0
+home1genoa=2
+homexgenoa=1
+home2genoa=2
 
-home1sampdoria=0
-homexsampdoria=0
-home2sampdoria=0
+home1sampdoria=2
+homexsampdoria=2
+home2sampdoria=1
 
 home1chievo=0
 homexchievo=0
@@ -62,7 +62,7 @@ home1atalanta=2
 homexatalanta=2
 home2atalanta=1
 
-home1torino=0
-homextorino=0
-home2torino=0
+home1torino=1
+homextorino=3
+home2torino=1
 

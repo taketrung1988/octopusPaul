@@ -37,8 +37,8 @@ home1napoli=0
 homexnapoli=0
 home2napoli=0
 
-home1fiorentina=0
-homexfiorentina=0
+home1fiorentina=4
+homexfiorentina=1
 home2fiorentina=0
 
 home1udinese=0
@@ -53,9 +53,9 @@ home1sampdoria=0
 homexsampdoria=0
 home2sampdoria=0
 
-home1chievo=0
-homexchievo=0
-home2chievo=0
+home1chievo=3
+homexchievo=1
+home2chievo=1
 
 home1atalanta=4
 homexatalanta=1

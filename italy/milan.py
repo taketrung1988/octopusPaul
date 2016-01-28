@@ -37,17 +37,17 @@ home1napoli=0
 homexnapoli=0
 home2napoli=0
 
-home1fiorentina=0
-homexfiorentina=0
-home2fiorentina=0
+home1fiorentina=1
+homexfiorentina=1
+home2fiorentina=3
 
 home1udinese=0
 homexudinese=0
 home2udinese=0
 
-home1genoa=0
-homexgenoa=0
-home2genoa=0
+home1genoa=3
+homexgenoa=1
+home2genoa=1
 
 home1sampdoria=0
 homexsampdoria=0

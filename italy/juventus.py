@@ -36,7 +36,7 @@ home1napoli=0
 homexnapoli=0
 home2napoli=0
 
-home1fiorentina=0
+home1fiorentina=5
 homexfiorentina=0
 home2fiorentina=0
 
