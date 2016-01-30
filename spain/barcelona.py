@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 name="Barcelona"
+country="Spain"
 homeWins3Years=87.7
 homeDraws3Years=7.0
 homeLoses3Years=5.3
@@ -9,7 +10,6 @@ awayDraws3Years=17.5
 awayLoses3Years=14.0
 
 #last 5 meeting at Camp Nou
-
 home1barcelona=0
 homexbarcelona=0
 home2barcelona=0    

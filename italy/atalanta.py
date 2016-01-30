@@ -1,9 +1,7 @@
 #!/usr/bin/python3
 
 name="Atalanta"
-wins3Years=28.9
-draws3Years=26.3
-loses3Years=44.7
+country="Italy"
 homeWins3Years=36.8
 homeDraws3Years=28.1
 homeLoses3Years=35.1

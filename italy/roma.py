@@ -1,9 +1,7 @@
 #!/usr/bin/python3
 
 name="Roma"
-wins3Years=55.3
-draws3Years=24.6
-loses3Years=20.2
+country="Italy"
 homeWins3Years=61.4
 homeDraws3Years=26.3
 homeLoses3Years=12.3
@@ -17,13 +15,13 @@ home1milan=0
 homexmilan=0
 home2milan=0
 
-home1inter=0
-homexinter=0
+home1inter=3
+homexinter=2
 home2inter=0
 
-home1juventus=0
-homexjuventus=0
-home2juventus=0
+home1juventus=2
+homexjuventus=2
+home2juventus=1
 
 home1lazio=0
 homexlazio=0
@@ -45,7 +43,7 @@ home1udinese=0
 homexudinese=0
 home2udinese=0
 
-home1genoa=0
+home1genoa=5
 homexgenoa=0
 home2genoa=0
 

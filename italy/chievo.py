@@ -1,9 +1,7 @@
 #!/usr/bin/python3
 
 name="Chievo"
-wins3Years=28.1
-draws3Years=24.6
-loses3Years=47.4
+country="Italy"
 homeWins3Years=28.1
 homeDraws3Years=33.3
 homeLoses3Years=38.6

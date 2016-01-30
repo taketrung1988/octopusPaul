@@ -1,9 +1,7 @@
 #!/usr/bin/python3
 
 name="Milan"
-wins3Years=43.9
-draws3Years=27.2
-loses3Years=28.9
+country="Italy"
 homeWins3Years=57.9
 homeDraws3Years=19.3
 homeLoses3Years=22.8
@@ -17,13 +15,13 @@ home1milan=0
 homexmilan=0
 home2milan=0
 
-home1inter=0
-homexinter=0
-home2inter=0
+home1inter=2
+homexinter=1
+home2inter=2
 
-home1juventus=0
-homexjuventus=0
-home2juventus=0
+home1juventus=1
+homexjuventus=1
+home2juventus=3
 
 home1lazio=0
 homexlazio=0

@@ -1,9 +1,7 @@
 #!/usr/bin/python3
 
 name="Fiorentina"
-wins3Years=50.9
-draws3Years=21.1
-loses3Years=27.2
+country="Italy"
 homeWins3Years=54.4
 homeDraws3Years=24.6
 homeLoses3Years=21.1

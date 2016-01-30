@@ -1,9 +1,7 @@
 #!/usr/bin/python3
 
 name="Sampdoria"
-wins3Years=31.6
-draws3Years=31.6
-loses3Years=36.8
+country="Italy"
 homeWins3Years=38.6
 homeDraws3Years=31.6
 homeLoses3Years=29.8
@@ -17,9 +15,9 @@ home1milan=0
 homexmilan=0
 home2milan=0
 
-home1inter=0
-homexinter=0
-home2inter=0
+home1inter=1
+homexinter=1
+home2inter=3
 
 home1juventus=0
 homexjuventus=0
@@ -45,9 +43,9 @@ home1udinese=0
 homexudinese=0
 home2udinese=0
 
-home1genoa=0
-homexgenoa=0
-home2genoa=0
+home1genoa=2
+homexgenoa=1
+home2genoa=2
 
 home1sampdoria=0
 homexsampdoria=0

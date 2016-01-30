@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 name="Name"
+country="England"
 homeWins3Years=
 homeDraws3Years=
 homeLoses3Years=
