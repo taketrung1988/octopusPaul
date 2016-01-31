@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 name="Inter"
-country="Italy"
 homeWins3Years=40.4
 homeDraws3Years=35.1
 homeLoses3Years=24.6

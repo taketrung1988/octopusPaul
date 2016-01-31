@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 name="Atletico Madrid"
-country="Spain"
 homeWins3Years=75.4
 homeDraws3Years=15.8
 homeLoses3Years=8.8

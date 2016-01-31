@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 name="Athetic Bilbao"
-country="Spain"
 homeWins3Years=50.9
 homeDraws3Years=22.8
 homeLoses3Years=26.3

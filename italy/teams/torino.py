@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 name="Torino"
-country="Italy"
 homeWins3Years=40.4
 homeDraws3Years=33.3
 homeLoses3Years=26.3
@@ -12,8 +11,8 @@ awayLoses3Years=38.6
     
 #last 5 meeting at Torino     
 home1milan=0
-homexmilan=0
-home2milan=0
+homexmilan=4
+home2milan=1
 
 home1inter=0
 homexinter=2
@@ -23,25 +22,25 @@ home1juventus=1
 homexjuventus=0
 home2juventus=4
 
-home1lazio=0
-homexlazio=0
-home2lazio=0
+home1lazio=2
+homexlazio=1
+home2lazio=2
 
 home1roma=0
-homexroma=0
-home2roma=0
+homexroma=3
+home2roma=2
 
-home1napoli=0
+home1napoli=3
 homexnapoli=0
-home2napoli=0
+home2napoli=2
 
 home1fiorentina=1
 homexfiorentina=3
 home2fiorentina=1
 
-home1udinese=0
-homexudinese=0
-home2udinese=0
+home1udinese=3
+homexudinese=1
+home2udinese=1
 
 home1genoa=2
 homexgenoa=2

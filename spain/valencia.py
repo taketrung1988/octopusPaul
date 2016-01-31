@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 name="Valencia"
-country="Spain"
 homeWins3Years=66.7
 homeDraws3Years=15.8
 homeLoses3Years=17.5

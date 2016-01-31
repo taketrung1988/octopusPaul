@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 name="Juventus"
-country="Italy"
 homeWins3Years=86.0
 homeDraws3Years=10.5
 homeLoses3Years=3.5

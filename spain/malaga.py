@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 name="Malaga"
-country="Spain"
 homeWins3Years=45.6
 homeDraws3Years=22.8
 homeLoses3Years=31.6

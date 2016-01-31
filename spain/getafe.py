@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 name="Getafe"
-country="Spain"
 homeWins3Years=36.8
 homeDraws3Years=26.3
 homeLoses3Years=36.8

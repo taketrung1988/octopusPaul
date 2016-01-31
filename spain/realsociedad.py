@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 name="Real Sociedad"
-country="Spain"
 homeWins3Years=52.6
 homeDraws3Years=28.1
 homeLoses3Years=19.3

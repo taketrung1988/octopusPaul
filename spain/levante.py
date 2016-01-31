@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 name="Levante"
-country="Spain"
 homeWins3Years=36.8
 homeDraws3Years=28.1
 homeLoses3Years=35.1

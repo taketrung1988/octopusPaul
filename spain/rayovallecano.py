@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 name="Rayo Vallecano"
-country="Spain"
 homeWins3Years=43.9
 homeDraws3Years=8.8
 homeLoses3Years=47.4

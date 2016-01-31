@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 name="Real Madrid"
-country="Spain"
 homeWins3Years=86.0
 homeDraws3Years=8.8
 homeLoses3Years=5.3

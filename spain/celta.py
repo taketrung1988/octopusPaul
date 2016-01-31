@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 name="Celta"
-country="Spain"
 homeWins3Years=36.8
 homeDraws3Years=31.6
 homeLoses3Years=31.6

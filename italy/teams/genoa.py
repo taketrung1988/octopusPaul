@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 name="Genoa"
-country="Italy"
 homeWins3Years=38.6
 homeDraws3Years=31.6
 homeLoses3Years=29.8
