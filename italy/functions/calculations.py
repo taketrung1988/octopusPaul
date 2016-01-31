@@ -114,13 +114,54 @@ def findName ( name ):
         else:
                 return 0
 
-def populateData( ItalyTeam ):
-        if ItalyTeam.name == "Atalanta" :
-                ItalyTeam.home1milan=atalanta.home1milan
-        else:
-                ItalyTeam.home1milan=juventus.home1milan
-        
-        
+def populateData( team ):
+	if team.name == "Atalanta" :
+		team.homeWins3Years=atalanta.homeWins3Years
+		team.homeDraws3Years=atalanta.homeDraws3Years
+		team.homeLoses3Years=atalanta.homeLoses3Years
+		team.awayWins3Years=atalanta.awayWins3Years
+		team.awayDraws3Years=atalanta.awayDraws3Years
+		team.awayLoses3Years=atalanta.awayLoses3Years
+		team.home1milan=atalanta.home1milan
+		team.homexmilan=atalanta.homexmilan
+		team.home2milan=atalanta.home2milan
+		team.home1inter=atalanta.home1inter
+		team.homexinter=atalanta.homexinter
+		team.home2inter=atalanta.home2inter
+		team.home1juventus=atalanta.home1juventus
+		team.homexjuventus=atalanta.homexjuventus
+		team.home2juventus=atalanta.home2juventus
+		team.home1lazio=atalanta.home1lazio
+		team.homexlazio=atalanta.homexlazio
+		team.home2lazio=atalanta.home2lazio
+		team.home1roma=atalanta.home1roma
+		team.homexroma=atalanta.homexroma
+		team.home2roma=atalanta.home2roma
+		team.home1napoli=atalanta.home1napoli
+		team.homexnapoli=atalanta.homexnapoli
+		team.home2napoli=atalanta.home2napoli
+		team.home1fiorentina=atalanta.home1fiorentina
+		team.homexfiorentina=atalanta.homexfiorentina
+		team.home2fiorentina=atalanta.home2fiorentina
+		team.home1udinese=atalanta.home1udinese
+		team.homexudinese=atalanta.homexudinese
+		team.home2udinese=atalanta.home2udinese
+		team.home1genoa=atalanta.home1genoa
+		team.homexgenoa=atalanta.homexgenoa
+		team.home2genoa=atalanta.home2genoa
+		team.home1sampdoria=atalanta.home1sampdoria
+		team.homexsampdoria=atalanta.homexsampdoria
+		team.home2sampdoria=atalanta.home2sampdoria
+		team.home1chievo=atalanta.home1chievo
+		team.homexchievo=atalanta.homexchievo
+		team.home2chievo=atalanta.home2chievo
+		team.home1atalanta=atalanta.home1atalanta
+		team.homexatalanta=atalanta.homexatalanta
+		team.home2atalanta=atalanta.home2atalanta
+		team.home1torino=atalanta.home1torino
+		team.homextorino=atalanta.homextorino
+		team.home2torino=atalanta.home2torino
+
 
 		
         

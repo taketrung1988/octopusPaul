@@ -33,8 +33,13 @@ print("away team name is: " + awayTeam.name)
 
 populateData(homeTeam)
 print(homeTeam.home1milan)
-populateData(awayTeam)
-print(awayTeam.home1milan)
+
+print (homeTeam.home1inter)
+
+print (homeTeam.homexudinese)
+print (homeTeam.home2roma)
+#populateData(awayTeam)
+#print(awayTeam.home1milan)
 
                
 # Current season stats
