@@ -1287,6 +1287,158 @@ def get5meetingsdraws(home, away) :
                         return milan.homexgenoa
                 if away == "Inter":
                         return milan.homexinter
+                if away == "Juventus":
+                        return milan.homexjuventus
+                if away == "Lazio":
+                        return milan.homexlazio
+                if away == "Milan":
+                        return milan.homexmilan
+                if away == "Napoli":
+                        return milan.homexnapoli
+                if away == "Roma":
+                        return milan.homexroma
+                if away == "Sampdoria":
+                        return milan.homexsampdoria
+                if away == "Torino":
+                        return milan.homextorino
+                if away == "Udinese":
+                        return milan.homexudinese
+        if home == "Napoli":
+                if away == "Atalanta":
+                        return napoli.homexatalanta
+                if away == "Chievo":
+                        return napoli.homexchievo
+                if away == "Fiorentina":
+                        return napoli.homexfiorentina
+                if away == "Genoa":
+                        return napoli.homexgenoa
+                if away == "Inter":
+                        return napoli.homexinter
+                if away == "Juventus":
+                        return napoli.homexjuventus
+                if away == "Lazio":
+                        return napoli.homexlazio
+                if away == "Milan":
+                        return napoli.homexmilan
+                if away == "Napoli":
+                        return napoli.homexnapoli
+                if away == "Roma":
+                        return napoli.homexroma
+                if away == "Sampdoria":
+                        return napoli.homexsampdoria
+                if away == "Torino":
+                        return napoli.homextorino
+                if away == "Udinese":
+                        return napoli.homexudinese
+        if home == "Roma":
+                if away == "Atalanta":
+                        return roma.homexatalanta
+                if away == "Chievo":
+                        return roma.homexchievo
+                if away == "Fiorentina":
+                        return roma.homexfiorentina
+                if away == "Genoa":
+                        return roma.homexgenoa
+                if away == "Inter":
+                        return roma.homexinter
+                if away == "Juventus":
+                        return roma.homexjuventus
+                if away == "Lazio":
+                        return roma.homexlazio
+                if away == "Milan":
+                        return roma.homexmilan
+                if away == "Napoli":
+                        return roma.homexnapoli
+                if away == "Roma":
+                        return roma.homexroma
+                if away == "Sampdoria":
+                        return roma.homexsampdoria
+                if away == "Torino":
+                        return roma.homextorino
+                if away == "Udinese":
+                        return roma.homexudinese
+        if home == "Sampdoria":
+                if away == "Atalanta":
+                        return sampdoria.homexatalanta
+                if away == "Chievo":
+                        return sampdoria.homexchievo
+                if away == "Fiorentina":
+                        return sampdoria.homexfiorentina
+                if away == "Genoa":
+                        return sampdoria.homexgenoa
+                if away == "Inter":
+                        return sampdoria.homexinter
+                if away == "Juventus":
+                        return sampdoria.homexjuventus
+                if away == "Lazio":
+                        return sampdoria.homexlazio
+                if away == "Milan":
+                        return sampdoria.homexmilan
+                if away == "Napoli":
+                        return sampdoria.homexnapoli
+                if away == "Roma":
+                        return sampdoria.homexroma
+                if away == "Sampdoria":
+                        return sampdoria.homexsampdoria
+                if away == "Torino":
+                        return sampdoria.homextorino
+                if away == "Udinese":
+                        return sampdoria.homexudinese
+        if home == "Torino":
+                if away == "Atalanta":
+                        return torino.homexatalanta
+                if away == "Chievo":
+                        return torino.homexchievo
+                if away == "Fiorentina":
+                        return torino.homexfiorentina
+                if away == "Genoa":
+                        return torino.homexgenoa
+                if away == "Inter":
+                        return torino.homexinter
+                if away == "Juventus":
+                        return torino.homexjuventus
+                if away == "Lazio":
+                        return torino.homexlazio
+                if away == "Milan":
+                        return torino.homexmilan
+                if away == "Napoli":
+                        return torino.homexnapoli
+                if away == "Roma":
+                        return torino.homexroma
+                if away == "Sampdoria":
+                        return torino.homexsampdoria
+                if away == "Torino":
+                        return torino.homextorino
+                if away == "Udinese":
+                        return torino.homexudinese
+        if home == "Udinese":
+                if away == "Atalanta":
+                        return udinese.homexatalanta
+                if away == "Chievo":
+                        return udinese.homexchievo
+                if away == "Fiorentina":
+                        return udinese.homexfiorentina
+                if away == "Genoa":
+                        return udinese.homexgenoa
+                if away == "Inter":
+                        return udinese.homexinter
+                if away == "Juventus":
+                        return udinese.homexjuventus
+                if away == "Lazio":
+                        return udinese.homexlazio
+                if away == "Milan":
+                        return udinese.homexmilan
+                if away == "Napoli":
+                        return udinese.homexnapoli
+                if away == "Roma":
+                        return udinese.homexroma
+                if away == "Sampdoria":
+                        return udinese.homexsampdoria
+                if away == "Torino":
+                        return udinese.homextorino
+                if away == "Udinese":
+                        return udinese.homexudinese
+                
 def meetings_draws(home, away) :
         if home == "Atalanta":
                 if away == "Atalanta":
@@ -1639,157 +1791,7 @@ def meetings_draws(home, away) :
                         return udinese.homextorino
                 if away == "Udinese":
                         return udinese.homexudinese
-                if away == "Juventus":
-                        return milan.homexjuventus
-                if away == "Lazio":
-                        return milan.homexlazio
-                if away == "Milan":
-                        return milan.homexmilan
-                if away == "Napoli":
-                        return milan.homexnapoli
-                if away == "Roma":
-                        return milan.homexroma
-                if away == "Sampdoria":
-                        return milan.homexsampdoria
-                if away == "Torino":
-                        return milan.homextorino
-                if away == "Udinese":
-                        return milan.homexudinese
-        if home == "Napoli":
-                if away == "Atalanta":
-                        return napoli.homexatalanta
-                if away == "Chievo":
-                        return napoli.homexchievo
-                if away == "Fiorentina":
-                        return napoli.homexfiorentina
-                if away == "Genoa":
-                        return napoli.homexgenoa
-                if away == "Inter":
-                        return napoli.homexinter
-                if away == "Juventus":
-                        return napoli.homexjuventus
-                if away == "Lazio":
-                        return napoli.homexlazio
-                if away == "Milan":
-                        return napoli.homexmilan
-                if away == "Napoli":
-                        return napoli.homexnapoli
-                if away == "Roma":
-                        return napoli.homexroma
-                if away == "Sampdoria":
-                        return napoli.homexsampdoria
-                if away == "Torino":
-                        return napoli.homextorino
-                if away == "Udinese":
-                        return napoli.homexudinese
-        if home == "Roma":
-                if away == "Atalanta":
-                        return roma.homexatalanta
-                if away == "Chievo":
-                        return roma.homexchievo
-                if away == "Fiorentina":
-                        return roma.homexfiorentina
-                if away == "Genoa":
-                        return roma.homexgenoa
-                if away == "Inter":
-                        return roma.homexinter
-                if away == "Juventus":
-                        return roma.homexjuventus
-                if away == "Lazio":
-                        return roma.homexlazio
-                if away == "Milan":
-                        return roma.homexmilan
-                if away == "Napoli":
-                        return roma.homexnapoli
-                if away == "Roma":
-                        return roma.homexroma
-                if away == "Sampdoria":
-                        return roma.homexsampdoria
-                if away == "Torino":
-                        return roma.homextorino
-                if away == "Udinese":
-                        return roma.homexudinese
-        if home == "Sampdoria":
-                if away == "Atalanta":
-                        return sampdoria.homexatalanta
-                if away == "Chievo":
-                        return sampdoria.homexchievo
-                if away == "Fiorentina":
-                        return sampdoria.homexfiorentina
-                if away == "Genoa":
-                        return sampdoria.homexgenoa
-                if away == "Inter":
-                        return sampdoria.homexinter
-                if away == "Juventus":
-                        return sampdoria.homexjuventus
-                if away == "Lazio":
-                        return sampdoria.homexlazio
-                if away == "Milan":
-                        return sampdoria.homexmilan
-                if away == "Napoli":
-                        return sampdoria.homexnapoli
-                if away == "Roma":
-                        return sampdoria.homexroma
-                if away == "Sampdoria":
-                        return sampdoria.homexsampdoria
-                if away == "Torino":
-                        return sampdoria.homextorino
-                if away == "Udinese":
-                        return sampdoria.homexudinese
-        if home == "Torino":
-                if away == "Atalanta":
-                        return torino.homexatalanta
-                if away == "Chievo":
-                        return torino.homexchievo
-                if away == "Fiorentina":
-                        return torino.homexfiorentina
-                if away == "Genoa":
-                        return torino.homexgenoa
-                if away == "Inter":
-                        return torino.homexinter
-                if away == "Juventus":
-                        return torino.homexjuventus
-                if away == "Lazio":
-                        return torino.homexlazio
-                if away == "Milan":
-                        return torino.homexmilan
-                if away == "Napoli":
-                        return torino.homexnapoli
-                if away == "Roma":
-                        return torino.homexroma
-                if away == "Sampdoria":
-                        return torino.homexsampdoria
-                if away == "Torino":
-                        return torino.homextorino
-                if away == "Udinese":
-                        return torino.homexudinese
-        if home == "Udinese":
-                if away == "Atalanta":
-                        return udinese.homexatalanta
-                if away == "Chievo":
-                        return udinese.homexchievo
-                if away == "Fiorentina":
-                        return udinese.homexfiorentina
-                if away == "Genoa":
-                        return udinese.homexgenoa
-                if away == "Inter":
-                        return udinese.homexinter
-                if away == "Juventus":
-                        return udinese.homexjuventus
-                if away == "Lazio":
-                        return udinese.homexlazio
-                if away == "Milan":
-                        return udinese.homexmilan
-                if away == "Napoli":
-                        return udinese.homexnapoli
-                if away == "Roma":
-                        return udinese.homexroma
-                if away == "Sampdoria":
-                        return udinese.homexsampdoria
-                if away == "Torino":
-                        return udinese.homextorino
-                if away == "Udinese":
-                        return udinese.homexudinese
+
 def get5meetingsloses(home, away) :
         if home == "Atalanta":
                 if away == "Atalanta":
