@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+import datetime
 
 from italy.functions.calculations import *
 
@@ -129,9 +130,9 @@ home_away_percent2 = (first_team_last3years_home_loses_percent + second_team_las
 
 #Calculated percents
 	
-calculated_home = (home_away_percent1 + season_percent_home + last5games_percent_home + meetings_percent_home)/4
-calculated_draw = (home_away_percentX + season_percent_draw + last5games_percent_draw + meetings_percent_draw)/4
-calculated_away = (home_away_percent2 + season_percent_away + last5games_percent_away + meetings_percent_away)/4
+calculated_home = (home_away_percent1 + season_percent_home*2 + last5games_percent_home*2 + meetings_percent_home)/6
+calculated_draw = (home_away_percentX + season_percent_draw*2 + last5games_percent_draw*2 + meetings_percent_draw)/6
+calculated_away = (home_away_percent2 + season_percent_away*2 + last5games_percent_away*2 + meetings_percent_away)/6
 
 print("calculated percents home: ")
 print(calculated_home)
@@ -173,4 +174,15 @@ if bet_away + 10 < calculated_away :
     print("Bet 2")
     if calculated_away < 25 :
         print("WARNING! Chanse to hit under 25%")
+
+with open("stats.txt", "a") as myfile:
+    myfile.write("------------------\n")
+    myfile.write(datetime.date.today().strftime("%B %d, %Y")+"\n")
+    myfile.write("calculated percents from FootballOracle: \n")
+    myfile.write(homeTeam.name +" "+ str(calculated_home)+"\n")
+    myfile.write("X " + str(calculated_draw)+"\n")
+    myfile.write(awayTeam.name +" "+ str(calculated_away)+"\n")
+    myfile.write("------------------\n") 
+myfile.close()
+
 theend = input("done")
