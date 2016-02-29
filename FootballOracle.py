@@ -134,6 +134,10 @@ calculated_home = (home_away_percent1 + season_percent_home*2 + last5games_perce
 calculated_draw = (home_away_percentX + season_percent_draw*2 + last5games_percent_draw*2 + meetings_percent_draw)/6
 calculated_away = (home_away_percent2 + season_percent_away*2 + last5games_percent_away*2 + meetings_percent_away)/6
 
+calculated_home = round(calculated_home, 1)
+calculated_draw = round(calculated_draw, 1)
+calculated_away = round(calculated_away, 1)
+
 print("calculated percents home: ")
 print(calculated_home)
 print("calculated percents draw: ")
@@ -154,6 +158,10 @@ bet_base = bet1+betx+bet2
 bet_home = (bet2*100)/bet_base
 bet_draw = (betx*100)/bet_base
 bet_away = (bet1*100)/bet_base
+
+bet_home = round(bet_home,1)
+bet_draw = round(bet_draw,1)
+bet_away = round(bet_away,1)
 
 print("bet percents home: ")
 print(bet_home)
