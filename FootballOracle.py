@@ -170,26 +170,51 @@ print(bet_draw)
 print("bet percents away: ")
 print(bet_away)
 
+pr_bet1=0
+pr_betx=0
+pr_bet2=0
+pr_warn1=0
+pr_warnx=0
+pr_warn2=0
+
 if bet_home + 10 < calculated_home :
     print("Bet 1")
+    pr_bet1=1
     if calculated_home < 25 :
         print("WARNING! Chanse to hit under 25%")
+        pr_warn1=1
 if bet_draw + 10 < calculated_draw :
     print("Bet X")
+    pr_betx=1
     if calculated_draw < 25 :
         print("WARNING! Chanse to hit under 25%")
+        pr_warnx=1
 if bet_away + 10 < calculated_away :
     print("Bet 2")
+    pr_bet2=1
     if calculated_away < 25 :
         print("WARNING! Chanse to hit under 25%")
+        pr_warn2=1
 
 with open("stats.txt", "a") as myfile:
     myfile.write("------------------\n")
     myfile.write(datetime.date.today().strftime("%B %d, %Y")+"\n")
-    myfile.write("calculated percents from FootballOracle: \n")
+    myfile.write("calculated percents: \n")
     myfile.write(homeTeam.name +" "+ str(calculated_home)+"\n")
     myfile.write("X " + str(calculated_draw)+"\n")
     myfile.write(awayTeam.name +" "+ str(calculated_away)+"\n")
+    if pr_bet1 == 1 :
+        myfile.write("bet 1\n")
+    if pr_warn1 ==1 :
+        myfile.write("warning: bet 1 is under 25%\n"
+    if pr_betx == 1 :
+        myfile.write("bet x\n")
+    if pr_warnx ==1 :
+        myfile.write("warning: bet x is under 25%\n"
+    if pr_bet2 == 1 :
+        myfile.write("bet 2\n")
+    if pr_warn2 ==1 :
+        myfile.write("warning: bet 2 is under 25%\n"
     myfile.write("------------------\n") 
 myfile.close()
 
