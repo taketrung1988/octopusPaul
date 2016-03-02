@@ -159,9 +159,9 @@ bet_home = (bet2*100)/bet_base
 bet_draw = (betx*100)/bet_base
 bet_away = (bet1*100)/bet_base
 
-bet_home = round(bet_home,1)
-bet_draw = round(bet_draw,1)
-bet_away = round(bet_away,1)
+bet_home = round(bet_home, 1)
+bet_draw = round(bet_draw, 1)
+bet_away = round(bet_away, 1)
 
 print("bet percents home: ")
 print(bet_home)
@@ -170,31 +170,18 @@ print(bet_draw)
 print("bet percents away: ")
 print(bet_away)
 
-pr_bet1=0
-pr_betx=0
-pr_bet2=0
-pr_warn1=0
-pr_warnx=0
-pr_warn2=0
-
 if bet_home + 10 < calculated_home :
     print("Bet 1")
-    pr_bet1=1
     if calculated_home < 25 :
-        print("WARNING! Chanse to hit under 25%")
-        pr_warn1=1
+        print("WARNING! bet 1 is under 25%")
 if bet_draw + 10 < calculated_draw :
     print("Bet X")
-    pr_betx=1
     if calculated_draw < 25 :
-        print("WARNING! Chanse to hit under 25%")
-        pr_warnx=1
+        print("WARNING! bet x is under 25%")
 if bet_away + 10 < calculated_away :
     print("Bet 2")
-    pr_bet2=1
     if calculated_away < 25 :
-        print("WARNING! Chanse to hit under 25%")
-        pr_warn2=1
+        print("WARNING! bet 2 is under 25%")
 
 with open("stats.txt", "a") as myfile:
     myfile.write("------------------\n")
@@ -203,18 +190,18 @@ with open("stats.txt", "a") as myfile:
     myfile.write(homeTeam.name +" "+ str(calculated_home)+"\n")
     myfile.write("X " + str(calculated_draw)+"\n")
     myfile.write(awayTeam.name +" "+ str(calculated_away)+"\n")
-    if pr_bet1 == 1 :
-        myfile.write("bet 1\n")
-    if pr_warn1 ==1 :
-        myfile.write("warning: bet 1 is under 25%\n"
-    if pr_betx == 1 :
-        myfile.write("bet x\n")
-    if pr_warnx ==1 :
-        myfile.write("warning: bet x is under 25%\n"
-    if pr_bet2 == 1 :
-        myfile.write("bet 2\n")
-    if pr_warn2 ==1 :
-        myfile.write("warning: bet 2 is under 25%\n"
+    if bet_home + 10 < calculated_home :
+        myfile.write("Bet 1\n")
+        if calculated_home < 25 :
+            myfile.write("WARNING! bet 1 is under 25%\n")
+    if bet_draw + 10 < calculated_draw :
+       myfile.write ("Bet X\n")
+       if calculated_draw < 25 :
+           myfile.write ("WARNING! bet x is under 25%\n")
+    if bet_away + 10 < calculated_away :
+        myfile.write("Bet 2\n")
+        if calculated_away < 25 :
+            myfile.write("WARNING! bet 2 is under 25%\n") 
     myfile.write("------------------\n") 
 myfile.close()
 
