@@ -3,6 +3,8 @@ import datetime
 
 from italy.functions.calculations import *
 
+debug=0
+
 homeTeam = ItalyTeam()
 awayTeam = ItalyTeam()
 
@@ -52,8 +54,12 @@ season_percent_home = (first_team_current_season_percent_wins + second_team_curr
 season_percent_draw = (first_team_current_season_percent_draws + second_team_current_season_percent_draws)/2
 season_percent_away = (first_team_current_season_percent_loses + second_team_current_season_percent_wins)/2
 
-
-
+if debug == 1 :
+    print("current season:")
+    print(str(season_percent_home))
+    print(str(season_percent_draw))
+    print(str(season_percent_away))
+          
 # Last 5 games 
 first_team_last5games_wins = int(input("Enter " + homeTeam.name + " last 5 games wins: "))
 first_team_last5games_draws = int(input("Enter " + homeTeam.name + " last 5 games draws: "))
@@ -79,7 +85,13 @@ if second_team_last5games_loses > 5 :
 
 last5games_percent_home = (((first_team_last5games_wins + second_team_last5games_loses)/2)*100)/5
 last5games_percent_draw = (((first_team_last5games_draws + second_team_last5games_draws)/2)*100)/5
-last5games_percent_away = (((first_team_last5games_loses + second_team_last5games_loses)/2)*100)/5  
+last5games_percent_away = (((first_team_last5games_loses + second_team_last5games_wins)/2)*100)/5
+
+if debug == 1 :          
+    print("last 5 games:")
+    print(str(last5games_percent_home))
+    print(str(last5games_percent_draw))
+    print(str(last5games_percent_away))
 
 
 # Last 5 meetings
@@ -105,6 +117,11 @@ meetings_percent_home = (first_team_5meetings_wins*100)/5
 meetings_percent_draw = (meetings_draws*100)/5
 meetings_percent_away = (second_team_5meetings_wins*100)/5
 
+if debug == 1 :
+    print("meetings:")
+    print(str(meetings_percent_home))
+    print(str(meetings_percent_draw))
+    print(str(meetings_percent_away))
 
 #Last 3years home-away percents
 
@@ -127,6 +144,12 @@ else :
 home_away_percent1 = (first_team_last3years_home_wins_percent + second_team_last3years_away_loses_percent)/2
 home_away_percentX = (first_team_last3years_home_draws_percent + second_team_last3years_away_draws_percent)/2
 home_away_percent2 = (first_team_last3years_home_loses_percent + second_team_last3years_away_wins_percent)/2
+
+if debug == 1 :
+    print("last 3 years:")
+    print(str(home_away_percent1))
+    print(str(home_away_percentX))
+    print(str(home_away_percent2))
 
 #Calculated percents
 	
@@ -191,15 +214,15 @@ with open("stats.txt", "a") as myfile:
     myfile.write("X " + str(calculated_draw)+"\n")
     myfile.write(awayTeam.name +" "+ str(calculated_away)+"\n")
     if bet_home + 10 < calculated_home :
-        myfile.write("Bet 1\n")
+        myfile.write("Bet 1 for " + str(bet1) + "\n")
         if calculated_home < 25 :
             myfile.write("WARNING! bet 1 is under 25%\n")
     if bet_draw + 10 < calculated_draw :
-       myfile.write ("Bet X\n")
+       myfile.write ("Bet X for " + str(betx) + "\n")
        if calculated_draw < 25 :
            myfile.write ("WARNING! bet x is under 25%\n")
     if bet_away + 10 < calculated_away :
-        myfile.write("Bet 2\n")
+        myfile.write("Bet 2 for " + str(bet2) + "\n")
         if calculated_away < 25 :
             myfile.write("WARNING! bet 2 is under 25%\n") 
     myfile.write("------------------\n") 
