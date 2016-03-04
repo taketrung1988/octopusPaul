@@ -10,12 +10,18 @@ second_team_name = input("Enter second team name: ")
 first_team_current_season_games = int(input("Enter " + first_team_name + " current season number of games: "))
 first_team_current_season_wins = float(input("Enter " + first_team_name + " current season wins: "))
 first_team_current_season_draws = float(input("Enter " + first_team_name + " current season draws: "))
-first_team_current_season_loses = float(input("Enter " + first_team_name + " current season loses: "))
+first_team_current_season_loses = first_team_current_season_games - (first_team_current_season_wins +first_team_current_season_draws)
+
+if first_team_current_season_wins + first_team_current_season_draws >first_team_current_season_games:
+    print("Error")
 
 second_team_current_season_games = int(input("Enter " + second_team_name + " current season number of games: "))
 second_team_current_season_wins = float(input("Enter " + second_team_name + " current season wins: "))
 second_team_current_season_draws = float(input("Enter " + second_team_name + " current season draws: "))
-second_team_current_season_loses = float(input("Enter " + second_team_name + " current season loses: "))
+second_team_current_season_loses = second_team_current_season_games - (second_team_current_season_wins + second_team_current_season_draws)
+
+if second_team_current_season_wins + second_team_current_season_draws > second_team_current_season_games:
+    print("Error")
 
 first_team_current_season_percent_wins = (first_team_current_season_wins*100)/first_team_current_season_games
 first_team_current_season_percent_draws = (first_team_current_season_draws*100)/first_team_current_season_games
@@ -29,6 +35,12 @@ season_percent_home = (first_team_current_season_percent_wins + second_team_curr
 season_percent_draw = (first_team_current_season_percent_draws + second_team_current_season_percent_draws)/2
 season_percent_away = (first_team_current_season_percent_loses + second_team_current_season_percent_wins)/2
 
+if(season_percent_home + season_percent_draw + season_percent_away)<99:
+    print("Error")
+
+if(season_percent_home + season_percent_draw + season_percent_away)>100:
+    print("Error")
+
 if debug == 1 :
     print("current season:")
     print(str(season_percent_home))
@@ -38,29 +50,27 @@ if debug == 1 :
 # Last 5 games 
 first_team_last5games_wins = int(input("Enter " + first_team_name + " last 5 games wins: "))
 first_team_last5games_draws = int(input("Enter " + first_team_name + " last 5 games draws: "))
-first_team_last5games_loses = int(input("Enter " + first_team_name + " last 5 games loses: "))
+first_team_last5games_loses = 5 -(first_team_last5games_wins + first_team_last5games_draws)
 
-if first_team_last5games_wins > 5 :
-    print("Error")
-if first_team_last5games_draws > 5 :
-    print("Error")
-if first_team_last5games_loses > 5 :
+if first_team_last5games_wins + first_team_last5games_draws > 5 :
     print("Error")
     
 second_team_last5games_wins = int(input("Enter " + second_team_name + " last 5 games wins: "))
 second_team_last5games_draws = int(input("Enter " + second_team_name + " last 5 games draws: "))
-second_team_last5games_loses = int(input("Enter " + second_team_name + " last 5 games loses: "))
+second_team_last5games_loses = 5 - (second_team_last5games_wins + second_team_last5games_draws)
 
-if second_team_last5games_wins > 5 :
-    print("Error")
-if second_team_last5games_draws > 5 :
-    print("Error")
-if second_team_last5games_loses > 5 :
+if second_team_last5games_wins + second_team_last5games_draws> 5 :
     print("Error")
 
 last5games_percent_home = (((first_team_last5games_wins + second_team_last5games_loses)/2)*100)/5
 last5games_percent_draw = (((first_team_last5games_draws + second_team_last5games_draws)/2)*100)/5
 last5games_percent_away = (((first_team_last5games_loses + second_team_last5games_wins)/2)*100)/5
+
+if(last5games_percent_home +last5games_percent_draw +last5games_percent_away)<99:
+    print("Error")
+
+if(last5games_percent_home +last5games_percent_draw +last5games_percent_away)>100:
+    print("Error")
 
 if debug == 1 :          
     print("last 5 games:")
