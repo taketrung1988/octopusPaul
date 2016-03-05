@@ -8,20 +8,20 @@ second_team_name = input("Enter second team name: ")
              
 # Current season stats
 first_team_current_season_games = int(input("Enter " + first_team_name + " current season number of games: "))
-first_team_current_season_wins = float(input("Enter " + first_team_name + " current season wins: "))
-first_team_current_season_draws = float(input("Enter " + first_team_name + " current season draws: "))
+first_team_current_season_wins = int(input("Enter " + first_team_name + " current season wins: "))
+first_team_current_season_draws = int(input("Enter " + first_team_name + " current season draws: "))
 first_team_current_season_loses = first_team_current_season_games - (first_team_current_season_wins +first_team_current_season_draws)
 
 if first_team_current_season_wins + first_team_current_season_draws >first_team_current_season_games:
-    print("Error")
+        print("Error first team number of wins + draws is bigger than number of games")
 
 second_team_current_season_games = int(input("Enter " + second_team_name + " current season number of games: "))
-second_team_current_season_wins = float(input("Enter " + second_team_name + " current season wins: "))
-second_team_current_season_draws = float(input("Enter " + second_team_name + " current season draws: "))
+second_team_current_season_wins = int(input("Enter " + second_team_name + " current season wins: "))
+second_team_current_season_draws = int(input("Enter " + second_team_name + " current season draws: "))
 second_team_current_season_loses = second_team_current_season_games - (second_team_current_season_wins + second_team_current_season_draws)
 
 if second_team_current_season_wins + second_team_current_season_draws > second_team_current_season_games:
-    print("Error")
+    print("Error second team number of wins + draws is bigger than number of games")
 
 first_team_current_season_percent_wins = (first_team_current_season_wins*100)/first_team_current_season_games
 first_team_current_season_percent_draws = (first_team_current_season_draws*100)/first_team_current_season_games
@@ -36,10 +36,12 @@ season_percent_draw = (first_team_current_season_percent_draws + second_team_cur
 season_percent_away = (first_team_current_season_percent_loses + second_team_current_season_percent_wins)/2
 
 if(season_percent_home + season_percent_draw + season_percent_away)<99:
-    print("Error")
+    print(str(strseason_percent_home + season_percent_draw + season_percent_away))
+    print("Error under 99% season stats")
 
-if(season_percent_home + season_percent_draw + season_percent_away)>100:
-    print("Error")
+if(season_percent_home + season_percent_draw + season_percent_away)>101:
+    print(str(strseason_percent_home + season_percent_draw + season_percent_away))
+    print("Error over 101% season stats")
 
 if debug == 1 :
     print("current season:")
